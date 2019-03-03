@@ -42,6 +42,7 @@ rollDice.addEventListener('click', function () {
 
 });
 
+// adding eventlistner to the hold button
 holdBtn.addEventListener('click', function () {
     if (gameActive){
         // add score to the global score
@@ -69,6 +70,7 @@ holdBtn.addEventListener('click', function () {
 
 });
 
+// event listener to the new game button
 newGame.addEventListener('click', startGame);
 
 
@@ -93,6 +95,7 @@ function displayNone() {
     }
 }
 
+// function that controls all the actions on starting the game
 function startGame() {
     scores = [0,0];
     roundScore = 0;
